@@ -26,13 +26,13 @@ You can now view your application online at `http://local.dev/` and make changes
 All routes and the database structure have been provided for you. Furthermore, all of the files you will need (with the possible exception of those for helper classes) have been created for you; you simply need to modify them. You should review what you have been provided with before getting started.
 
 This includes all of the files in:
-	* `~/controllers/BookExchange`
-	* `~/layouts/BookExchange`
-	* `~/views/BookExchange`
-	* `~/helpers/BookExchange`
+* `~/controllers/BookExchange`
+* `~/layouts/BookExchange`
+* `~/views/BookExchange`
+* `~/helpers`
 
 You should place static files in the `~/static` folder.
 
-To create your own helper classes, place them in `~/helpers`. You can import them by using `import('myfile')` to load the classes and functions from `~/helpers/myfile.php`.
+To create your own helper classes, place them in `~/helpers`. You can import them by using `import('myfile')` to load the classes and functions from `~/helpers/myfile.php`. You may wish to create a helper class that represents a Book.
 
 Authentication and Sessions have been fully implemented for you; you only need to leverage existing APIs. You can refer the user to the login and logout pages by generating URLs to `BookExchange.Login` and `BookExchange.Logout`. Your Controllers will provide you with a unique integer that identifies the currently active user account: `$this->user->id`. The authentication service is integrated with Rice University's Network ID system; you can log in using your credentials (this will require an active internet connection).
