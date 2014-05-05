@@ -1,10 +1,10 @@
 {
 	"name" : "mschurr/project",
-	"description" : "",
+	"description" : "COLL 144 Web Application Development Final Project Starter Files",
 	"keywords" : [],
 	"license" : "MIT",
 	"type" : "project",
-	"homepage" : "",
+	"homepage" : "https://github.com/mschurr/project",
 	"authors" : [
 		{
 				"name" : "Matthew Schurr",
